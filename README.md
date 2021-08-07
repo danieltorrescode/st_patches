@@ -7,6 +7,10 @@ my patched version of st
 
 - `git pull --rebase source master`
 
+- `wget https://st.suckless.org/patches/patch.diff`
+
+- `patch -p1 < patch.diff`
+
 - `make`
 
 - `make clean install`
